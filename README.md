@@ -51,10 +51,10 @@ The `transactions` dataset contains transaction-level records, including transac
 
 | Check | Findings | Action |
 |---|---|---|
-| Missing values | X missing values found in column A | Reviewed impact before analysis |
-| Duplicates | X duplicated `transaction_id` values found | Removed duplicates |
-| Incorrect data types | Date column was stored as object | Converted to datetime |
-| Incorrect values | X transactions had invalid or negative volume | Classified as invalid / removed from analysis |
+| Missing values |  49059 missing values found in column 'sender_id' <br> 164 795 missing values found in 'receiver_id' column  <br> 1 317 907 missing values found in column 'extra_info' | Removed missing values in both 'sender_id' and 'receiver_id' |
+| Duplicates | 28 duplicated `transaction_id` values found | Removed duplicates |
+| Incorrect data types | 'sender_id' and 'receiver_id' column was stored as float64 | Converted to int64 |
+| Incorrect values | No transactions had invalid or negative volume |  No action |
 
 The transactions dataset required additional checking because it contains row-level transaction records. Invalid transaction cases were identified based on the given transaction type rules and excluded from the final transaction-type performance summary.
 
