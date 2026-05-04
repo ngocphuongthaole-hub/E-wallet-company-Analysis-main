@@ -39,7 +39,7 @@ The `payment_product` dataset was created by merging `payment_report.csv` with `
 | Missing values | 22 missing values in 'category' <br> 22 missing values in 'team_own' | 'category' and 'team_own' are important for team performance and category contribution analysis, these missing values were removed |
 | Duplicates | 5 duplicates found | Dropped duplicates |
 | Incorrect data types | `report_month` was stored as object | Converted to datetime |
-| Incorrect values | No negative payment volume found / X negative values found | No action / Investigated |
+| Incorrect values | No negative payment volume found | No action  |
 
 Overall, the `payment_product` dataset was suitable for analysis after basic cleaning. The main adjustment was converting date-related columns into the correct datetime format to support time-based analysis.
 
