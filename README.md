@@ -58,8 +58,6 @@ The `transactions` dataset contains transaction-level records, including transac
 
 The transactions dataset required additional checking because it contains row-level transaction records. Invalid transaction cases were identified based on the given transaction type rules and excluded from the final transaction-type performance summary.
 
-#### Summary 
-
 
 
 ### Part II: Data Wrangling & Analysis
