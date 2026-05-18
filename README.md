@@ -1,4 +1,4 @@
-# Ewallet-transaction-analytics
+# E-wallet-transaction-analytics
 ## Project Statement
 This project analyzes payment and transaction data from an e-wallet company to understand product performance, transaction behavior, and operational insights. The goal is to support data-driven decision-making in payment systems and business performence monitoring.
 
